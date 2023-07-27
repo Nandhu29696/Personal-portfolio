@@ -1,5 +1,5 @@
 import React from 'react';
-import AvatarPortfolio from './../../images/avatar.png';
+import AvatarPortfolio from './../../images/mail_pro.png';
 import './Avatar.scss';
 
 const Avatar = (props) => (
@@ -10,4 +10,4 @@ const Avatar = (props) => (
     </>
 );
 
-export default Avatar;
+export default Avatar; 
