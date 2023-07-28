@@ -1,4 +1,3 @@
-Live: https://nandhakumar-profile.netlify.app/
 
 # Getting Started with Create React App
 
