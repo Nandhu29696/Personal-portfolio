@@ -7,6 +7,7 @@ import Header from './components/Header';
 import MyWork from './components/MyWork';
 import Navbar from './components/Navbar';
 import Services from './components/Services';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(() => {
@@ -34,6 +35,7 @@ function App() {
       <MyWork isDarkMode={isDarkMode} />
       <Contact isDarkMode={isDarkMode} />
       <Footer isDarkMode={isDarkMode} />
+      <Analytics />
     </div>
   );
 }
