@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -7,7 +8,6 @@ import Header from './components/Header';
 import MyWork from './components/MyWork';
 import Navbar from './components/Navbar';
 import Services from './components/Services';
-
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(() => {
     if (localStorage.theme === 'dark') return false;
@@ -34,6 +34,7 @@ function App() {
       <MyWork isDarkMode={isDarkMode} />
       <Contact isDarkMode={isDarkMode} />
       <Footer isDarkMode={isDarkMode} />
+      <Analytics />
     </div>
   );
 }
