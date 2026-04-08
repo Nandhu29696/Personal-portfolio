@@ -234,7 +234,7 @@ export const footerInfo = {
 
 export const contactFormInfo = {
     namePlaceholder: 'Your Name',
-    emailPlaceholder: 'Your Email',
+    emailPlaceholder: 'Your Email Id',
     messagePlaceholder: 'Your Message',
     submitButtonTitle: 'Send Message'
 };
