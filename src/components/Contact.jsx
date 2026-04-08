@@ -71,6 +71,7 @@ const Contact = ({ isDarkMode }) => {
                 method: 'POST',
                 body: formData,
             });
+            console.log('formData: ', formData);
 
             const data = await response.json();
 

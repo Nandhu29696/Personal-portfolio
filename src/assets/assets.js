@@ -34,6 +34,12 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import powerapps from './powerapps.png';
+import powerautomate from './powerautomate.png';
+import sharepoint from './sharepoint.webp';
+import dataverse from './dataverse.png';
+import azure from './azure.png';
+import api from './api.png';
 
 export const assets = {
     user_image,
@@ -71,91 +77,96 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark, powerapps, powerautomate, sharepoint, dataverse, azure, api
 };
 
 export const workData = [
     {
-        title: 'HealthCamp project',
-        description: 'Full Stack Design',
+        title: 'HR Ticketing System',
+        description: 'Power Apps + Power Automate + SharePoint',
         bgImage: '/work-1.png',
         linkTitle: 'View Project',
-        link: 'https://hms.nirmaan.org/dashboard'
+        link: '' // add demo/video if available
     },
     {
-        title: 'Letscalm App',
-        description: 'Mobile App',
+        title: 'Employee Onboarding App',
+        description: 'Power Apps + Automated Approval Workflows',
         bgImage: '/work-2.png',
         linkTitle: 'View Project',
-        link: 'https://github.com/Nandhu29696/letsclam_frontend/tree/Frontend'
+        link: ''
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Leave Management System',
+        description: 'Workflow Automation with Power Platform',
         bgImage: '/work-3.png',
         linkTitle: 'View Project',
         link: ''
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'API Integration Dashboard',
+        description: 'Power Apps + REST API + Dataverse',
         bgImage: '/work-4.png',
         linkTitle: 'View Project',
         link: ''
     },
-]
+];
 
 export const serviceData = [
     {
         icon: assets.web_icon,
-        title: 'Web development',
-        description: 'Web development is the process of building, programming...', link: ''
+        title: 'Power Apps Development',
+        description: 'Building scalable Canvas & Model-driven apps tailored for business needs using Microsoft Power Platform.',
+        link: ''
     },
     {
         icon: assets.mobile_icon,
-        title: 'Mobile app',
-        description: 'Mobile app development involves creating software for mobile devices...', link: ''
+        title: 'Workflow Automation',
+        description: 'Automating business processes using Power Automate including approvals, notifications, and integrations.',
+        link: ''
     },
     {
         icon: assets.ui_icon,
-        title: 'UI/UX design',
-        description: 'UI/UX design focuses on creating a seamless user experience...', link: ''
+        title: 'SharePoint & Dataverse Solutions',
+        description: 'Designing secure and scalable data models using SharePoint and Dataverse with role-based access control.',
+        link: ''
     },
     {
         icon: assets.graphics_icon,
-        title: 'AI&ML Solutions',
-        description: 'AI and ML to manage data and creating solutions based on...', link: ''
+        title: 'API & System Integration',
+        description: 'Integrating external systems using REST APIs and custom connectors to extend Power Platform capabilities.',
+        link: ''
     },
-]
+];
 
 export const infoList = [
     {
         icon: assets.code_icon,
         iconDark: assets.code_icon_dark,
-        title: 'Languages',
-        description: 'Java(Spring-Boot), React Js, Node Js,  MySQL, AWS, Python(Django), Azure DevOps, Git, CI/CD pipelines'
+        title: 'Power Platform Expertise',
+        description: 'Power Apps (Canvas & Model-driven), Power Automate, Dataverse, SharePoint, REST API Integration, Custom Connectors'
     },
     {
         icon: assets.edu_icon,
         iconDark: assets.edu_icon_dark,
         title: 'Education',
-        description: 'Master of Computer Applications from Anna University, Chennai'
+        description: 'Master of Computer Applications - Anna University, Chennai'
     },
     {
         icon: assets.project_icon,
         iconDark: assets.project_icon_dark,
-        title: 'Projects',
-        description: 'Built more than 15 projects'
+        title: 'Experience Highlights',
+        description: '5 years experience | Built 20+ enterprise apps | Automated workflows improving efficiency by 40%+'
     }
 ];
 
 export const toolsData = [
-  { icon: assets.vscode, name: 'VS Code' },
-  { icon: assets.javascript, name: 'JavaScript' },
-  { icon: assets.springBoot, name: 'Spring Boot' },
-  { icon: assets.mysql, name: 'MySql' },
-  { icon: assets.aws, name: 'AWS' },
-  { icon: assets.git, name: 'Git' },
+    { icon: assets.powerapps, name: 'Power Apps' },
+    { icon: assets.powerautomate, name: 'Power Automate' },
+    { icon: assets.sharepoint, name: 'SharePoint' },
+    { icon: assets.dataverse, name: 'Dataverse' },
+    { icon: assets.azure, name: 'Azure' },
+    { icon: assets.api, name: 'REST APIs' },
+    { icon: assets.git, name: 'Git' },
 ];
 
 
@@ -170,42 +181,39 @@ export const navbarLinks = [
 export const navbarInfo = {
     contact: 'Contact',
 };
-
 export const aboutInfo = {
     title: 'Introduction',
     subTitle: 'About Me',
-    description: `I’m a passionate Full Stack Developer who enjoys crafting modern, scalable, and user-friendly web applications.
-  I work across multiple stacks including React, Node.js, Express, MongoDB, Django, and Spring Boot.
-  My focus is on writing clean, maintainable code and building solutions that deliver seamless performance and great user experiences.`,
+    description: `I’m a Power Platform Developer with 5 years of experience building enterprise-grade business applications using Microsoft technologies.
+I specialize in Power Apps (Canvas & Model-driven), Power Automate, SharePoint, and Dataverse to design scalable and efficient solutions.
+My focus is on automating business processes, integrating APIs, and delivering user-friendly applications that improve productivity and reduce manual effort.`,
     toolsuseTitle: 'Tools & Technologies I Use'
 };
 
 export const headerInfo = {
     name: "Hi! I'm Nandhakumar M",
-    role: 'Full Stack Developer | AI & Cloud Enthusiast',
-    description: `Based in Coimbatore, India with 4+ years of experience creating scalable web applications using React, Node.js, Django, and Spring Boot.`,
+    role: 'Power Platform Developer | Power Apps | Power Automate | Dataverse',
+    description: `Based in Coimbatore, India, I build scalable business applications and automate workflows using Microsoft Power Platform, SharePoint, and API integrations.`,
     contactMeTitle: 'Contact Me',
     resumeTitle: 'View Resume'
 };
 
-
 export const myservicesInfo = {
     title: 'What I Do',
     subTitle: 'My Services',
-    description: `I design and develop full-stack applications using the latest web technologies.
-  My services cover end-to-end solutions — from front-end interfaces to back-end APIs and cloud deployment.
-  I also integrate AI, data analytics, and automation to build intelligent and efficient systems.`,
+    description: `I design and develop business applications using Microsoft Power Platform.
+My expertise includes building Power Apps (Canvas & Model-driven), automating workflows with Power Automate, and integrating systems using APIs.
+I deliver end-to-end solutions that streamline operations, enhance user experience, and improve business efficiency.`,
     readmoreTitle: 'Read More'
 };
 
 export const myworkInfo = {
     title: 'My Portfolio',
-    subTitle: 'Recent Projects',
-    description: `Take a look at some of my projects developed with Spring Boot, Django, and Node.js.
-  Each project demonstrates strong architecture, secure APIs, and interactive front-end design, blending performance with creativity.`,
+    subTitle: 'Power Platform Projects',
+    description: `Explore my projects built using Power Apps, Power Automate, SharePoint, and Dataverse.
+Each project focuses on solving real business problems through automation, workflow optimization, and seamless integrations.`,
     buttonTitle: 'View All Projects'
 };
-
 export const contactInfo = {
     title: 'Get in Touch',
     subTitle: 'Contact Me',
@@ -223,8 +231,6 @@ export const footerInfo = {
         { title: 'Twitter', href: 'https://github.com/Nandhu29696' },
     ]
 };
-
-
 
 export const contactFormInfo = {
     namePlaceholder: 'Your Name',
