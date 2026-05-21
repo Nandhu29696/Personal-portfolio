@@ -82,29 +82,29 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'HR Ticketing System',
-        description: 'Power Apps + Power Automate + SharePoint',
+        title: 'Enterprise HR Management System',
+        description: 'React.js + Spring Boot + PostgreSQL + REST APIs',
         bgImage: '/work-1.png',
         linkTitle: 'View Project',
-        link: '' // add demo/video if available
+        link: ''
     },
     {
-        title: 'Employee Onboarding App',
-        description: 'Power Apps + Automated Approval Workflows',
+        title: 'Employee Workflow Automation Platform',
+        description: 'Power Apps + Power Automate + SharePoint + Dataverse',
         bgImage: '/work-2.png',
         linkTitle: 'View Project',
         link: ''
     },
     {
-        title: 'Leave Management System',
-        description: 'Workflow Automation with Power Platform',
+        title: 'Healthcare NGO Management Portal',
+        description: 'React.js + Spring Boot + AWS + Microservices',
         bgImage: '/work-3.png',
         linkTitle: 'View Project',
         link: ''
     },
     {
-        title: 'API Integration Dashboard',
-        description: 'Power Apps + REST API + Dataverse',
+        title: 'Analytics & API Integration Dashboard',
+        description: 'Power Platform + REST APIs + Azure Data Lake',
         bgImage: '/work-4.png',
         linkTitle: 'View Project',
         link: ''
@@ -114,26 +114,26 @@ export const workData = [
 export const serviceData = [
     {
         icon: assets.web_icon,
-        title: 'Power Apps Development',
-        description: 'Building scalable Canvas & Model-driven apps tailored for business needs using Microsoft Power Platform.',
+        title: 'Full Stack Web Development',
+        description: 'Building scalable and responsive web applications using React.js, Node.js, Spring Boot, and modern JavaScript frameworks.',
         link: ''
     },
     {
         icon: assets.mobile_icon,
-        title: 'Workflow Automation',
-        description: 'Automating business processes using Power Automate including approvals, notifications, and integrations.',
+        title: 'Power Platform Solutions',
+        description: 'Developing enterprise applications using Power Apps, Power Automate, Dataverse, and SharePoint to streamline business operations.',
         link: ''
     },
     {
         icon: assets.ui_icon,
-        title: 'SharePoint & Dataverse Solutions',
-        description: 'Designing secure and scalable data models using SharePoint and Dataverse with role-based access control.',
+        title: 'Workflow Automation & Integrations',
+        description: 'Automating business processes and integrating systems using REST APIs, custom connectors, and cloud-based solutions.',
         link: ''
     },
     {
         icon: assets.graphics_icon,
-        title: 'API & System Integration',
-        description: 'Integrating external systems using REST APIs and custom connectors to extend Power Platform capabilities.',
+        title: 'Cloud & Backend Development',
+        description: 'Designing backend services, microservices, and cloud deployments using Spring Boot, AWS, PostgreSQL, Docker, and CI/CD pipelines.',
         link: ''
     },
 ];
@@ -142,20 +142,20 @@ export const infoList = [
     {
         icon: assets.code_icon,
         iconDark: assets.code_icon_dark,
-        title: 'Power Platform Expertise',
-        description: 'Power Apps (Canvas & Model-driven), Power Automate, Dataverse, SharePoint, REST API Integration, Custom Connectors'
+        title: 'Full Stack & Power Platform',
+        description: 'React.js, Node.js, Spring Boot, Power Apps, Power Automate, Dataverse, SharePoint, REST APIs, AWS'
     },
     {
         icon: assets.edu_icon,
         iconDark: assets.edu_icon_dark,
         title: 'Education',
-        description: 'Master of Computer Applications - Anna University, Chennai'
+        description: 'Master of Computer Applications (MCA) - Anna University, Chennai'
     },
     {
         icon: assets.project_icon,
         iconDark: assets.project_icon_dark,
         title: 'Experience Highlights',
-        description: '5 years experience | Built 20+ enterprise apps | Automated workflows improving efficiency by 40%+'
+        description: '5+ years experience | Delivered 20+ enterprise applications | Improved workflow efficiency and automation by 40%+'
     }
 ];
 
@@ -181,19 +181,20 @@ export const navbarLinks = [
 export const navbarInfo = {
     contact: 'Contact',
 };
+
 export const aboutInfo = {
     title: 'Introduction',
     subTitle: 'About Me',
-    description: `I’m a Power Platform Developer with 5 years of experience building enterprise-grade business applications using Microsoft technologies.
-I specialize in Power Apps (Canvas & Model-driven), Power Automate, SharePoint, and Dataverse to design scalable and efficient solutions.
-My focus is on automating business processes, integrating APIs, and delivering user-friendly applications that improve productivity and reduce manual effort.`,
+    description: `I’m a Full Stack Developer with 5+ years of experience building scalable enterprise applications using modern web technologies and Microsoft Power Platform.
+I specialize in React.js, Node.js, Spring Boot, Power Apps, Power Automate, SharePoint, and Dataverse to develop end-to-end business solutions.
+My expertise includes workflow automation, REST API integrations, cloud solutions, and enterprise application development focused on improving productivity, scalability, and user experience.`,
     toolsuseTitle: 'Tools & Technologies I Use'
 };
 
 export const headerInfo = {
     name: "Hi! I'm Nandhakumar M",
-    role: 'Power Platform Developer | Power Apps | Power Automate | Dataverse',
-    description: `Based in Coimbatore, India, I build scalable business applications and automate workflows using Microsoft Power Platform, SharePoint, and API integrations.`,
+    role: 'Full Stack Developer | React.js | Node.js | Spring Boot | Power Platform',
+    description: `Based in Coimbatore, India, I build scalable web applications, enterprise solutions, and automation platforms using modern full-stack technologies, cloud services, and Microsoft Power Platform.`,
     contactMeTitle: 'Contact Me',
     resumeTitle: 'View Resume'
 };
@@ -201,24 +202,25 @@ export const headerInfo = {
 export const myservicesInfo = {
     title: 'What I Do',
     subTitle: 'My Services',
-    description: `I design and develop business applications using Microsoft Power Platform.
-My expertise includes building Power Apps (Canvas & Model-driven), automating workflows with Power Automate, and integrating systems using APIs.
-I deliver end-to-end solutions that streamline operations, enhance user experience, and improve business efficiency.`,
+    description: `I design and develop scalable web and enterprise applications using React.js, Spring Boot, Node.js, and Microsoft Power Platform.
+My expertise includes frontend and backend development, workflow automation, REST API integrations, cloud deployments, and business process optimization.
+I deliver end-to-end solutions that enhance user experience, streamline operations, and improve business efficiency.`,
     readmoreTitle: 'Read More'
 };
 
 export const myworkInfo = {
     title: 'My Portfolio',
-    subTitle: 'Power Platform Projects',
-    description: `Explore my projects built using Power Apps, Power Automate, SharePoint, and Dataverse.
-Each project focuses on solving real business problems through automation, workflow optimization, and seamless integrations.`,
+    subTitle: 'Projects & Solutions',
+    description: `Explore my projects built using React.js, Spring Boot, Power Apps, Power Automate, SharePoint, Dataverse, and cloud technologies.
+Each project focuses on solving real business challenges through scalable architecture, automation, API integrations, and modern application development.`,
     buttonTitle: 'View All Projects'
 };
+
 export const contactInfo = {
     title: 'Get in Touch',
     subTitle: 'Contact Me',
-    description: `I’m open to new ideas, collaborations, and challenges.
-  If you’d like to discuss a project or simply connect, feel free to reach out using the contact form below.`,
+    description: `I’m open to new opportunities, collaborations, freelance projects, and international roles.
+If you'd like to discuss a project, job opportunity, or simply connect, feel free to reach out using the contact form below.`,
 };
 
 
