@@ -169,7 +169,6 @@ export const toolsData = [
     { icon: assets.git, name: 'Git' },
 ];
 
-
 export const navbarLinks = [
     { title: 'Home', href: '#top' },
     { title: 'About Me', href: '#about' },
@@ -188,7 +187,8 @@ export const aboutInfo = {
     description: `I’m a Full Stack Developer with 5+ years of experience building scalable enterprise applications using modern web technologies and Microsoft Power Platform.
 I specialize in React.js, Node.js, Spring Boot, Power Apps, Power Automate, SharePoint, and Dataverse to develop end-to-end business solutions.
 My expertise includes workflow automation, REST API integrations, cloud solutions, and enterprise application development focused on improving productivity, scalability, and user experience.`,
-    toolsuseTitle: 'Tools & Technologies I Use'
+    toolsuseTitle: 'Tools & Technologies I Use',
+    gitHubLink: 'https://github.com/Nandhu29696'
 };
 
 export const headerInfo = {

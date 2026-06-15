@@ -1,5 +1,5 @@
 import React from 'react'
-import { assets, workData, myworkInfo } from '../assets/assets'
+import { assets, aboutInfo, workData, myworkInfo } from '../assets/assets'
 import { motion } from "motion/react"
 
 const MyWork = ({ isDarkMode }) => {
@@ -53,7 +53,7 @@ const MyWork = ({ isDarkMode }) => {
                 ))}
             </motion.div>
             <motion.a
-                href='https://github.com/Nandhu29696'
+                href={aboutInfo.gitHubLink}
                 target='_blank'
                 rel="noreferrer"
                 initial={{ opacity: 0 }}
