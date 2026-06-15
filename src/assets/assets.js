@@ -183,7 +183,7 @@ export const aboutInfo = {
 export const headerInfo = {
     name: "Hi! I'm Nandhakumar M",
     role: 'Full Stack Developer | AI & Cloud Enthusiast',
-    description: `Based in Coimbatore, India with 4+ years of experience creating scalable web applications using React, Node.js, Django, and Spring Boot.`,
+    description: `Based in Coimbatore, India with 5 years of experience creating scalable web applications using React, Node.js, Django, and Spring Boot.`,
     contactMeTitle: 'Contact Me',
     resumeTitle: 'View Resume'
 };
