@@ -1,26 +1,28 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+export default {
+  content: ['./index.html', './src/**/*.{js,jsx}'],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
-        lightHover: '#fcf4ff',
-        darkHover: '#2a004a',
-        darkTheme: '#11001F',
+        // Single accent colour, a nod to the Canadian flag red.
+        maple: {
+          50: '#fef3f2',
+          100: '#fde4e2',
+          400: '#f16a5f',
+          500: '#e2382b',
+          600: '#c8231a',
+          700: '#a51c14',
+        },
       },
       fontFamily: {
-        Outfit: ['Outfit', 'sans-serif'],
-        Ovo: ['Ovo', 'serif'],
+        sans: ['"Outfit Variable"', 'Outfit', 'system-ui', 'sans-serif'],
+        mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace'],
       },
-      boxShadow: {
-        'customLight': '4px 4px 0 #fff',
-        'customDark': '4px 4px 0 #000',
+      maxWidth: {
+        page: '72rem',
       },
-      gridTemplateColumns: {
-        'auto': 'repeat(auto-fit, minmax(200px, 1fr))',
-      }
     },
   },
-  darkMode: 'class',
   plugins: [],
 };

@@ -1,0 +1,121 @@
+{
+  "_note": "Single source for the resume (PDF + Word) and the cover letter template. Wrap text in **double asterisks** for bold. Placeholders in [square brackets] are highlighted in the Word cover letter.",
+  "contact": {
+    "name": "NANDHAKUMAR M",
+    "headline": "Full Stack AI Engineer",
+    "location": "Coimbatore, Tamil Nadu, India · Open to relocation to Canada",
+    "phone": "+91 63856 92143",
+    "email": "nandhu29696@gmail.com",
+    "links": [
+      { "text": "linkedin.com/in/nandhakumar-m-85344a178", "href": "https://www.linkedin.com/in/nandhakumar-m-85344a178/" },
+      { "text": "github.com/Nandhu29696", "href": "https://github.com/Nandhu29696" },
+      { "text": "my-portfolio-henna-tau-11.vercel.app", "href": "https://my-portfolio-henna-tau-11.vercel.app/" }
+    ]
+  },
+  "summary": "Full stack software engineer with 5+ years of experience building enterprise web applications, data platforms and Generative AI solutions for healthcare, business continuity and analytics. Skilled in Python (FastAPI, Django), React, Node.js, PostgreSQL, Azure and AWS. Recent work includes LLM-powered applications with OpenAI and Ollama, AI agents that call tools through the Model Context Protocol, and document intelligence with OCR. Recognized as Best Performer at Firstsource Solutions.",
+  "skills": [
+    ["AI & GenAI", "OpenAI API, Azure OpenAI, Ollama, LLM tool calling, Model Context Protocol (MCP), prompt engineering, sentiment analysis, OCR (Tesseract)"],
+    ["Backend", "Python (FastAPI, Django REST Framework), Node.js, Express, Java (Spring Boot), REST APIs, microservices"],
+    ["Frontend", "React, Next.js, TypeScript, JavaScript, React Native (Expo), Redux Toolkit, Tailwind CSS"],
+    ["Data", "PostgreSQL, MySQL, MongoDB, Redis, PySpark, Microsoft Fabric Lakehouse, Azure Data Lake Storage"],
+    ["Cloud & DevOps", "Azure, AWS, Docker, CI/CD, Azure DevOps, Git"],
+    ["Practices", "JWT, OAuth 2.0 and SSO, automated testing (pytest, Vitest, Playwright), Agile delivery"]
+  ],
+  "experience": [
+    {
+      "role": "Senior Software Engineer",
+      "company": "Firstsource Solutions Limited",
+      "location": "Hyderabad, India",
+      "dates": "Apr 2025 – Present",
+      "bullets": [
+        "Developed Python (PySpark) data pipelines on Microsoft Fabric Lakehouse for large-scale structured and semi-structured data.",
+        "Reduced ETL processing time by **40%** and increased data reliability by streamlining data workflows.",
+        "Built interactive dashboards that improved data accessibility and business insight by **35%**.",
+        "Integrated Azure Data Lake Storage for ingestion, processing and archival of business-critical data.",
+        "Contributed features to React and Node.js applications and their backend APIs."
+      ]
+    },
+    {
+      "role": "Junior Software Engineer",
+      "company": "Firstsource Solutions Limited",
+      "location": "Hyderabad, India",
+      "dates": "Oct 2021 – Mar 2025",
+      "bullets": [
+        "Led full-cycle development of Information Lifecycle Management, Business Continuity Management and healthcare (NGO) platforms with **100%** on-time delivery.",
+        "Developed Spring Boot microservices and React applications, improving system efficiency by **35%**.",
+        "Reduced infrastructure costs by **25%** by optimizing AWS and Azure resource usage.",
+        "Improved query performance by **30%** by redesigning PostgreSQL schemas.",
+        "Automated Docker deployments to AWS (**40%** faster) and streamlined CI/CD for a **50%** faster release cycle.",
+        "Wrote API and architecture documentation that reduced new-developer onboarding time by **40%**."
+      ]
+    },
+    {
+      "role": "Full Stack Developer",
+      "company": "Invicious Technologies",
+      "location": "Coimbatore, India",
+      "dates": "Mar 2021 – Sep 2021",
+      "bullets": [
+        "Led a cross-functional team and increased project delivery speed by **35%** through clear planning.",
+        "Optimized the Hyper App project, improving system performance by **30%**.",
+        "Built Spring Boot REST APIs that reduced API response time by **25%**.",
+        "Managed AWS deployments and cut infrastructure costs by **15%**.",
+        "Integrated MySQL and MongoDB, improving data retrieval speed by **40%**."
+      ]
+    },
+    {
+      "role": "Career break",
+      "company": "COVID-19 pandemic",
+      "location": "",
+      "dates": "Jun 2020 – Feb 2021",
+      "bullets": []
+    },
+    {
+      "role": "Java Web Developer",
+      "company": "Smartway Industrial Automation",
+      "location": "Coimbatore, India",
+      "dates": "Dec 2019 – May 2020",
+      "bullets": [
+        "Developed a real-time monitoring dashboard with Java and JSP, improving user accessibility by **20%**.",
+        "Improved application performance by **20%** through code-level optimization."
+      ]
+    }
+  ],
+  "projects": [
+    ["AI Email Assistant", "Python, FastAPI, PostgreSQL, Redis, Next.js, OpenAI",
+      "Classifies, prioritizes and summarizes Gmail and Outlook email with an LLM and sentiment and emotion analysis; drafts replies, routes messages to teams and sends real-time alerts over WebSockets."],
+    ["JobAgent AI", "Python, FastAPI, React, Ollama",
+      "Career assistant that scores resume-to-job match, generates tailored cover letters and tracks applications."],
+    ["MCP Healthcare Appointment Agent", "Node.js, Express, PostgreSQL, Ollama",
+      "AI agent that selects and calls typed tools (patient search, doctor availability, booking) to book appointments from natural-language requests."],
+    ["Loan Document Extraction", "Django REST Framework, PyMuPDF, Tesseract OCR, React",
+      "Extracts structured fields from scanned mortgage documents into a searchable loan tracker."],
+    ["HealthCamp Management Platform", "Node.js, Express, PostgreSQL, Azure Blob Storage",
+      "Platform for an NGO’s community health camps: camp planning, patient records, bulk data import and reports. In production at hms.nirmaan.org."]
+  ],
+  "certifications": [
+    ["GitHub Copilot Certification (Exam GH-300)", "Microsoft", "Valid 2026 – 2028"],
+    ["Develop AI Apps and Agents on Azure (AI-103T00-A course)", "Microsoft", "Valid 2026 – 2027"]
+  ],
+  "education": [
+    ["Master of Computer Applications (MCA)", "Hindusthan College of Engineering and Technology (Anna University), Coimbatore, India", "2020"],
+    ["Bachelor of Computer Applications (BCA)", "Hindusthan College of Arts and Science, Coimbatore, India", "2016"]
+  ],
+  "awards": [
+    ["Best Performer", "Firstsource Solutions", "for technical excellence and contributions to project delivery"],
+    ["Agility and Humanness Award", "Firstsource Solutions", "for adaptability and collaboration on high-impact projects"]
+  ],
+  "cover_letter": {
+    "recipient": ["[Date]", "", "[Hiring Manager Name]", "[Job Title of Hiring Manager]", "[Company Name]", "[City, Province]"],
+    "subject": "Re: Application for [Job Title] ([Job Posting ID])",
+    "greeting": "Dear [Hiring Manager Name],",
+    "paragraphs": [
+      "I am applying for the [Job Title] position at [Company Name], advertised on [where you saw it]. I am a full stack software engineer with more than five years of experience building enterprise applications and data platforms, and I now apply large language models to real business workflows. [One sentence on why this company or product interests you.]",
+      "At Firstsource Solutions, I led full-cycle delivery of information lifecycle management, business continuity and healthcare platforms with 100% on-time delivery. I reduced ETL processing time by 40% with PySpark pipelines on Microsoft Fabric, cut cloud infrastructure costs by 25% across AWS and Azure, and helped deliver a 50% faster release cycle through CI/CD. I was named Best Performer and received the Agility and Humanness Award for collaboration on high-impact projects.",
+      "My recent Generative AI work matches your need for [requirement from the job posting]. I built an AI Email Assistant (FastAPI, Next.js, PostgreSQL, OpenAI) that classifies, prioritizes, summarizes and drafts replies to email, and an AI agent that books healthcare appointments by calling typed tools through the Model Context Protocol. Both are on my GitHub, with case studies on my portfolio.",
+      "I am [work authorization status, e.g. a permanent resident of Canada / eligible for an open work permit] and can [relocate to City / work remotely with Eastern or Pacific time-zone overlap]. I can start [notice period or start date].",
+      "Thank you for considering my application. I would welcome the chance to discuss how I can contribute to [Company Name]. My resume is attached, and my portfolio is at my-portfolio-henna-tau-11.vercel.app."
+    ],
+    "closing": "Sincerely,",
+    "signature": "Nandhakumar M"
+  }
+}
