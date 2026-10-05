@@ -89,8 +89,9 @@ Other Canadian conventions the site follows:
 └── /projects/:slug     Case study
     ├── Generative AI: AI Email Assistant ← featured, JobAgent AI, MCP Healthcare Appointment Agent,
     │                  PesuAI, Loan Document Extraction, Letscalm
-    ├── Enterprise:    HealthCamp, BCM Platform, Enterprise Data Platform (Fabric), Investment Platform,
-    │                  POS Billing, Arboreal, Hostel Management, Spend Analytics Dashboard
+    ├── Enterprise:    HealthCamp, Mediance Healthcare CRM, Fleet Manager, BCM Platform,
+    │                  Enterprise Data Platform (Fabric), Investment Platform, POS Billing, Arboreal,
+    │                  Hostel Management, Spend Analytics Dashboard
     └── Web:           Alumni Meet, Pyro Town Store, Business Websites, Real Estate API
 
 /architecture           Architecture gallery: one diagram at a time via tabs, grouped into
@@ -327,7 +328,7 @@ npm run preview # serve build/ locally
 - [ ] Add **work authorization** status and **notice period** in `canadaFacts`.
 - [x] Add all real projects from GitHub to `projects.js`.
 - [ ] Add measurable **results** and **challenges** to each project case study.
-- [ ] Add live demo links for the AI projects (deploy at least the AI Email Assistant).
+- [ ] Add live demo links for the AI projects (deploy at least the AI Email Assistant), Mediance and Fleet Manager.
 - [x] Add certifications (GH-300T00-A, AI-103T00-A).
 - [x] Full name of AI-103T00-A: "Develop AI apps and agents on Azure" (a course).
 - [ ] Add the Microsoft Learn credential link (`url`) for each certification or course.
@@ -347,6 +348,7 @@ These files are committed to public repositories and should be removed from the 
 - A database dump in hostelmangsystem_backend
 - 134 uploaded loan PDFs in `LoanTracker_backend/media/documents`
 - A committed Python virtual environment (`authenv/`) in Job-Agent-AI-backend
+- A database backup (`ai_email_db_backup_20261003.sql`) in ai-email-assistant-api, which may contain real email data
 
 Other clean-up:
 

@@ -28,11 +28,10 @@
       "location": "Hyderabad, India",
       "dates": "Apr 2025 – Present",
       "bullets": [
-        "Developed Python (PySpark) data pipelines on Microsoft Fabric Lakehouse for large-scale structured and semi-structured data.",
-        "Reduced ETL processing time by **40%** and increased data reliability by streamlining data workflows.",
-        "Built interactive dashboards that improved data accessibility and business insight by **35%**.",
-        "Integrated Azure Data Lake Storage for ingestion, processing and archival of business-critical data.",
-        "Contributed features to React and Node.js applications and their backend APIs."
+        "Develop features for the GigSource project end to end, with React front ends and Node.js APIs.",
+        "Build and maintain Azure DevOps CI/CD pipelines that build and deploy the application.",
+        "Developed Python (PySpark) data pipelines on Microsoft Fabric Lakehouse in the first months of the role, with Azure Data Lake Storage for ingestion and archival.",
+        "Reduced ETL processing time by **40%** and built dashboards that improved data accessibility and business insight by **35%**."
       ]
     },
     {
@@ -81,8 +80,12 @@
     }
   ],
   "projects": [
-    ["AI Email Assistant", "Python, FastAPI, PostgreSQL, Redis, Next.js, OpenAI",
-      "Classifies, prioritizes and summarizes Gmail and Outlook email with an LLM and sentiment and emotion analysis; drafts replies, routes messages to teams and sends real-time alerts over WebSockets."],
+    ["AI Email Assistant", "Python, FastAPI, PostgreSQL, Next.js, OpenAI, Azure Blob Storage",
+      "Classifies, prioritizes and summarizes Gmail and Outlook email with an LLM and sentiment analysis; validates senders and attachments, converts and merges documents into one PDF, and replies to the sender automatically."],
+    ["Mediance Healthcare CRM", "React, TypeScript, Django REST Framework, Celery, MySQL",
+      "Client CRM and patient portal with six user roles: lead pipeline, consultations, prescriptions and lab reports, email/WhatsApp/SMS notifications, and an English, Hindi and Tamil interface."],
+    ["Fleet Manager", "React, Redux Toolkit, Node.js, Express, Sequelize, MySQL",
+      "Phased rewrite of a legacy PHP fleet system: vehicles, drivers, fuel, maintenance and salaries for own and sub-vendor fleets, with document-expiry alerts, PDF quotations and reports."],
     ["JobAgent AI", "Python, FastAPI, React, Ollama",
       "Career assistant that scores resume-to-job match, generates tailored cover letters and tracks applications."],
     ["MCP Healthcare Appointment Agent", "Node.js, Express, PostgreSQL, Ollama",

@@ -7,15 +7,16 @@ export const experience = [
     company: 'Firstsource Solutions Limited',
     location: 'Hyderabad, India',
     period: 'Apr 2025 – Present',
-    summary: 'Data engineering and full-stack delivery on Microsoft Fabric and Azure.',
+    summary:
+      'Full-stack development on the GigSource project with React, Node.js and Azure CI/CD, after starting the role on Microsoft Fabric data pipelines.',
+    // First highlight is also shown on the home page, so keep the current project first.
     highlights: [
-      'Built data analysis and pipeline workloads in Python (PySpark) on Microsoft Fabric Lakehouse for large-scale structured and semi-structured data.',
-      'Integrated Azure Data Lake Storage for ingestion, processing and archival of business-critical datasets.',
-      'Reduced ETL processing time by 40% while improving data reliability.',
-      'Delivered interactive dashboards that improved data accessibility and business insight by 35%.',
-      'Contributed to React.js and Node.js applications and their backend APIs.',
+      'Develop features for the GigSource project end to end: React front ends and Node.js APIs.',
+      'Build and maintain Azure DevOps CI/CD pipelines that build and deploy the application.',
+      'Started the role on a data engineering team: Python (PySpark) pipelines on Microsoft Fabric Lakehouse, with Azure Data Lake Storage for ingestion and archival.',
+      'Reduced ETL processing time by 40% and delivered dashboards that improved data accessibility and business insight by 35%.',
     ],
-    stack: ['Python', 'PySpark', 'Microsoft Fabric', 'Azure Data Lake', 'React', 'Node.js'],
+    stack: ['React', 'Node.js', 'Azure DevOps', 'CI/CD', 'Python', 'PySpark', 'Microsoft Fabric'],
   },
   {
     role: 'Junior Software Engineer',
@@ -54,7 +55,7 @@ export const experience = [
     summary: 'Career break during the COVID-19 pandemic.',
   },
   {
-    role: 'Java Web Developer',
+    role: 'Java Web Developer - Internship',
     company: 'Smartway Industrial Automation',
     location: 'Coimbatore, India',
     period: 'Dec 2019 – May 2020',

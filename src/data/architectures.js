@@ -7,31 +7,31 @@ export const architectures = [
     title: 'AI Email Assistant',
     projectSlug: 'ai-email-assistant',
     summary:
-      'An email processing pipeline from one of my projects: each message is enriched step by step, then routed and surfaced in real time.',
+      'The pipeline every email goes through in one of my projects: analysed by an LLM, checked, its documents turned into a single PDF, and answered automatically.',
     lanes: [
       {
-        name: 'Ingest & enrich',
+        name: 'Ingest & analyze',
         steps: [
-          { label: 'Gmail / Outlook', detail: 'OAuth 2.0 sync' },
-          { label: 'Preprocess', detail: 'Parse HTML, clean text' },
+          { label: 'Gmail / Outlook', detail: 'OAuth 2.0 mailbox sync' },
+          { label: 'Preprocess', detail: 'Parse HTML, drop auto-replies' },
           { label: 'Analyze', detail: 'Sentiment, emotion, category, priority' },
           { key: true, label: 'LLM', detail: 'Summary and reply draft' },
         ],
       },
       {
-        name: 'Act',
+        name: 'Document intake',
         steps: [
-          { label: 'Route', detail: 'Support, Finance, HR, Sales' },
-          { label: 'Store', detail: 'PostgreSQL + Redis' },
-          { label: 'Notify', detail: 'WebSocket alerts for urgent mail' },
-          { label: 'Dashboard', detail: 'Next.js charts and reply editor' },
+          { label: 'Sender checks', detail: 'Domain allow-list, SPF / DKIM / DMARC' },
+          { label: 'Validate files', detail: 'Type, size, password or encryption' },
+          { label: 'Convert & merge', detail: 'DOC / TIFF to PDF, one merged PDF' },
+          { label: 'Store & reply', detail: 'Azure Blob, status email to sender' },
         ],
       },
     ],
     decisions: [
       'Sentiment scoring uses VADER, a fast rule-based model, so the LLM is reserved for summaries and replies.',
-      'Each enrichment step is a separate service module, so steps can be tested and replaced independently.',
-      'Urgent messages are pushed over WebSockets instead of waiting for the user to refresh.',
+      'Every outcome is explicit: rejected emails get a reply that lists the problem files, while system failures end as reprocessable instead of blaming the sender.',
+      'Slow work (provider APIs, LibreOffice conversion, PDF merging) runs in worker threads, so the API stays responsive.',
     ],
   },
   {

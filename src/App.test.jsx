@@ -13,6 +13,8 @@ test.each([
   ['/', /Full Stack AI Engineer/],
   ['/projects', /Case studies/],
   ['/projects/ai-email-assistant', /AI Email Assistant/],
+  ['/projects/mediance-healthcare-crm', /Mediance Healthcare CRM/],
+  ['/projects/fleet-manager', /Fleet Manager/],
   ['/architecture', /How I design systems/],
   ['/experience', /Professional experience/],
   ['/contact', /Let’s talk about your team/],
